@@ -1,4 +1,4 @@
-theme: osuny
+theme: noesya-hugo-theme
 enableRobotsTXT: true
 removePathAccents: true
 pagination:
@@ -8,6 +8,3 @@ params:
     position: hero
   search:
     active: true
-  logo:
-    header: ''
-    footer: ''
