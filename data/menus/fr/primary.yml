@@ -9,8 +9,4 @@ items:
   target: "/agenda/"
   kind: page
   children: []
-- title: Organisations
-  target: "/organisations/"
-  kind: page
-  children: []
 
