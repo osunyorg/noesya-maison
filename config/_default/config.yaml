@@ -7,4 +7,4 @@ params:
   summary:
     position: hero
   search:
-    active: true
+    active: false
