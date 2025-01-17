@@ -1,13 +1,6 @@
 ---
 title: Menu principal
 items:
-- title: Projet
-  target: "/le-projet/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/le-projet"
-  file: content/fr/pages/le-projet/_index.html
 - title: Actualités
   target: "/actualites/"
   kind: page
