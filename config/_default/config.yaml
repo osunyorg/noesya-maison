@@ -5,3 +5,6 @@ params:
     position: hero
   search:
     active: false
+  home:
+    head:
+      title: site
