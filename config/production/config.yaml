@@ -2,6 +2,11 @@
 
 baseURL: https://maison.noesya.coop
 
+## OSUNY
+osuny:
+  website:
+    id: 5be6bb9c-7aab-44fa-83b4-9996854c5332
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
