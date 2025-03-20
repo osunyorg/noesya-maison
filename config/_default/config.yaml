@@ -1,6 +1,7 @@
 theme: noesya-hugo-theme
 _merge: deep
 params:
+  ecosystem: maison
   summary:
     position: hero
   search:
