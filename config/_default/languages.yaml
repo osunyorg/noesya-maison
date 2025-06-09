@@ -9,6 +9,12 @@ fr:
   buildFuture: true
   params:
     contact_details:
+      social_networks:
+        instagram:
+          label: >-
+            maison.noesya.coop
+          value: >-
+            https://instagram.com/maison.noesya.coop
 
   permalinks:
     events: /agenda/:year/:slug/
