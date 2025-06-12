@@ -6,6 +6,8 @@ body.full-width
             @include media-breakpoint-up(desktop)
                 align-items: end !important
             .event-content
+                @include media-breakpoint-up(desktop)
+                    margin-bottom: -10px
                 hgroup
                     h3,
                     p
@@ -30,7 +32,5 @@ body.full-width
                     margin-top: 0
                     @include body-text
                     &.more
-                        @include meta
+                        @include body-text
                         @include icon(arrow-right-line, after, true)
-                        @include hover-translate-icon
-                        margin-top: $spacing-3
