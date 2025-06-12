@@ -1,0 +1,36 @@
+main > .blocks,
+body.full-width
+    .events--large
+        .event,
+        .exhibition
+            @include media-breakpoint-up(desktop)
+                align-items: end !important
+            .event-content
+                hgroup
+                    h3,
+                    p
+                        font-family: $heading-font-family !important
+                        @include media-breakpoint-up(desktop)
+                            font-size: pxToRem(50) !important
+            .event-schedule
+                margin-bottom: 0
+                .event-dates,
+                .event-time
+                    display: inline-block
+                .event-dates
+                    @include body-text
+                    margin-right: $spacing-1
+                .event-time
+                    span
+                        @include body-text
+                        &::before
+                            content: "— "
+            .event-description
+                p
+                    margin-top: 0
+                    @include body-text
+                    &.more
+                        @include meta
+                        @include icon(arrow-right-line, after, true)
+                        @include hover-translate-icon
+                        margin-top: $spacing-3
