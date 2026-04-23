@@ -13,3 +13,36 @@ Cache-Control = "max-age=31536000, no-transform, public"
 for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 [headers.values]
 Cache-Control = "max-age=31536000, no-transform, public"
+
+[[redirects]]
+from = "/agenda/2025-04-01-heros-zapatistes/"
+to = "/agenda/2025/heros-zapatistes/"
+
+[[redirects]]
+from = "/auberge-espagnole-a-la-casa-noesya/"
+to = "/codex-domus/auberge-espagnole-a-la-casa-noesya/"
+
+[[redirects]]
+from = "/organisations/"
+to = "/parties-prenantes/"
+
+[[redirects]]
+from = "/agenda/2026/cafe-papotage-enercoop/"
+to = "/agenda/2026/apero-papotage-enercoop/"
+
+[[redirects]]
+from = "/actualites/2024-05-19-decouverte-de-lannonce/"
+to = "/actualites/2024-05-01-decouverte-de-lannonce/"
+
+[[redirects]]
+from = "/agenda/2025-03-06-dia-de-muertos/"
+to = "/agenda/2025/dia-de-muertos/"
+
+[[redirects]]
+from = "/agenda/2025-03-06-lancement-maison-du-numerique/"
+to = "/agenda/2025/dia-de-muertos/"
+
+[[redirects]]
+from = "/Programme/"
+to = "/agenda/2025/fete-de-la-musique-2025/"
+
