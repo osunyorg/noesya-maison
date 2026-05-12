@@ -27,6 +27,10 @@ from = "/organisations/index.html"
 to = "/parties-prenantes/"
 
 [[redirects]]
+from = "/agenda/2026/apero-alladin/index.html"
+to = "/agenda/2026/apero-aladdin/"
+
+[[redirects]]
 from = "/agenda/2026/cafe-papotage-enercoop/index.html"
 to = "/agenda/2026/apero-papotage-enercoop/"
 
