@@ -46,3 +46,7 @@ to = "/agenda/2025/dia-de-muertos/"
 from = "/Programme/index.html"
 to = "/agenda/2025/fete-de-la-musique-2025/"
 
+[[redirects]]
+from = "/agenda/2026/aperosuny/index.html"
+to = "/agenda/2026/apero-alladin/"
+
