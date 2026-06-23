@@ -14,7 +14,7 @@
                 h2
                     padding-left: 0 !important
                     width: columns(8)
-        .post-sidebar
+        .section-sidebar
             margin-right: grid-external-space()
             right: 0
             left: unset
@@ -30,9 +30,17 @@
                 .toc-content
                     padding-bottom: 0
             // Remove categories
-            .post-infos
-                > li:first-of-type
-                    display: none
+            .post-infos.single-meta
+                > li
+                    &:first-of-type
+                        display: none
+                    &:not(:first-child)
+                        border-top: 0
+                        padding-top: 0
+                    span
+                        margin-bottom: space()
+                ul.share
+                    justify-content: flex-end
             .post-infos,
             .posts-taxonomies
                 text-align: right
