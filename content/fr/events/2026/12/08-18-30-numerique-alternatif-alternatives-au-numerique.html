@@ -26,7 +26,7 @@ search:
     Numérique alternatif & alternatives au numérique
 
   body: >-
-    <p>  <br>Table ronde, avec la participation de   <br> Aube Richebourg, EHESS, Centre Georg Simmel  <br> Nicholas Journet, Université de Bordeaux, Labri </p>
+      <p>Table ronde, avec la participation de...</p>
 
 date: "2026-12-08T18:30:00+01:00"
 dates:
@@ -130,27 +130,43 @@ meta_description: >-
 header_cta:
 
 contents_reading_time:
-  seconds: 5
+  seconds: 2
   text: >-
     moins d'une minute
 contents:
   - kind: block
-    template: chapter
+    template: persons
 
 
     ranks:
       base: 2
+      children: 2
     top:
-      active: false
-
+      active: true
+      description: >-
+        <p>Table ronde, avec la participation de...</p>
     data:
-      layout: no_background
-      text: >-
-        <p>Table ronde, avec la participation de </p><ul> <li>Aube Richebourg, EHESS, Centre Georg Simmel</li> <li>Nicholas Journet, Université de Bordeaux, Labri</li> </ul>
+      description: >-
+        <p>Table ronde, avec la participation de...</p>
+      layout: grid
+      options:
+        image: true
+        summary: true
+        link: true
+        contact: false
 
+      persons:
+        - permalink: "/equipe/aube-richebourg/"
+          path: "/persons/aube-richebourg"
+          slug: "aube-richebourg"
+          file: "content/fr/persons/aube-richebourg.html"
 
+        - permalink: "/equipe/nicholas-journet/"
+          path: "/persons/nicholas-journet"
+          slug: "nicholas-journet"
+          file: "content/fr/persons/nicholas-journet.html"
 
-
+      quantity: 2
 
 
 
