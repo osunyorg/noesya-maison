@@ -23,6 +23,10 @@ from = "/auberge-espagnole-a-la-casa-noesya/index.html"
 to = "/codex-domus/auberge-espagnole-a-la-casa-noesya/"
 
 [[redirects]]
+from = "/fichiers/2026/index.html"
+to = "/fichiers/2026/devis-dev00000284pdf/"
+
+[[redirects]]
 from = "/organisations/index.html"
 to = "/parties-prenantes/"
 
