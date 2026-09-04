@@ -31,6 +31,10 @@ from = "/organisations/index.html"
 to = "/parties-prenantes/"
 
 [[redirects]]
+from = "/agenda/2026/rencontre-coop-a-coop-1/index.html"
+to = "/agenda/2026/les-rencontres-intercoop/"
+
+[[redirects]]
 from = "/agenda/2026/apero-alladin/index.html"
 to = "/agenda/2026/apero-aladdin/"
 
