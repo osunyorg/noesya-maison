@@ -17,3 +17,8 @@ params:
   events:
     index:
       archives: true
+    single:
+      meta:
+        position: content
+        options:
+          with_labels: false
