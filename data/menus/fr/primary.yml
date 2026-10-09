@@ -19,4 +19,13 @@ items:
   descendants_targets: []
   path: "/events"
   file: content/fr/events/_index.html
+- title: Fonctionnement
+  slug: fonctionnement
+  target: "/codex-domus/auberge-espagnole-a-la-casa-noesya/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/codex-domus/auberge-espagnole-a-la-casa-noesya"
+  file: content/fr/pages/codex-domus/auberge-espagnole-a-la-casa-noesya/_index.html
 
