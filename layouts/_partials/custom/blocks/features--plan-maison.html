@@ -1,0 +1,22 @@
+<div class="block block-custom-plan-maison">
+  <div class="container">
+    <div class="images-container">
+      <figure>
+        <picture>
+          <img class="house-background" src="/assets/images/maison-noesya.png" height="3000" width="3000">
+        </picture>
+        <figcaption>© John Steins</figcaption>
+      </figure>
+    </div>
+    {{ with .block.data.elements }}
+      <ul class="features">
+        {{ range . }}
+          {{ partial "blocks/templates/features/feature.html" (dict
+            "feature" .
+            "heading_level" .block.ranks.children
+          ) }}
+        {{ end }}
+      </ul>
+    {{ end }}
+  </div>
+</div>
