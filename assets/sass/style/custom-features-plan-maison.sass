@@ -12,7 +12,6 @@
         justify-content: space-evenly
         position: relative
         z-index: 2
-        mix-blend-mode: darken
         li
             transition: opacity 0.35s
             .name
@@ -64,3 +63,11 @@
                 opacity: 1 !important
                 picture
                     opacity: .6 !important
+    @media (prefers-color-scheme: light)
+        .features
+            mix-blend-mode: darken
+    @media (prefers-color-scheme: dark)
+        .images-container
+            filter: invert(1)
+        .features picture
+            filter: brightness(2.5)
