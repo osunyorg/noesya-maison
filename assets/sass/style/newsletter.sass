@@ -4,6 +4,8 @@
     padding-top: var(--block-space-y)
     padding-bottom: var(--block-space-y)
     margin-bottom: -1px
+    svg
+        display: none !important
     .sib-form-message-panel
         display: none
     .sib-form-message-panel--active
@@ -12,6 +14,11 @@
         .input
             &--hidden
                 display: none !important
+    .sib-form-container
+        display: flex
+        flex-direction: column
+        #error-message
+            order: 2
     input
         border-radius: 0 !important
         appearance: none

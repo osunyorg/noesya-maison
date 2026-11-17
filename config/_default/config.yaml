@@ -2,7 +2,7 @@ theme: noesya-hugo-theme
 _merge: deep
 params:
   plausible: maison.noesya.coop
-  additional_csp: sibforms.com app.cal.com 'unsafe-inline'
+  additional_csp: "*.sibforms.com sibforms.com app.cal.com 'unsafe-inline'"
   ecosystem: maison
   summary:
     position: hero
