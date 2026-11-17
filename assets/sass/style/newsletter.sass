@@ -1,4 +1,9 @@
 .custom-newsletter
+    background: var(--color-background-alt)
+    color: var(--color-text)
+    padding-top: var(--block-space-y)
+    padding-bottom: var(--block-space-y)
+    margin-bottom: -1px
     .sib-form-message-panel
         display: none
     .sib-form-message-panel--active
@@ -43,3 +48,8 @@
             &[type="email"]
                 width: columns(2)
 
+    // reversed color
+    // @media (prefers-color-scheme: light)
+    //     @include switch-colors-to-dark-theme
+    @media (prefers-color-scheme: dark)
+        @include switch-colors-to-light-theme
