@@ -1,0 +1,45 @@
+.custom-newsletter
+    .sib-form-message-panel
+        display: none
+    .sib-form-message-panel--active
+        display: block
+    .sib-form
+        .input
+            &--hidden
+                display: none !important
+    input
+        border-radius: 0 !important
+        appearance: none
+        -webkit-appearance: none
+        &[type="email"]
+            border-width: 0
+            border-bottom: var(--border-width) solid currentColor
+            padding-left: 0
+            display: block
+            background: none
+            color: var(--color-text)
+            &::placeholder
+                color: var(--color-text-alt)
+    .title
+        p
+            @include h3
+    .email-input
+        display: flex
+        align-items: stretch
+        gap: var(--grid-gutter)
+    @include media-breakpoint-down(desktop)
+        .title
+            margin-bottom: var(--grid-gutter)
+    @include media-breakpoint-up(desktop)
+        form
+            display: flex
+            gap: var(--grid-gutter)
+            align-items: baseline
+        .title
+            width: columns(6)
+            p
+                max-width: 25ch
+        input
+            &[type="email"]
+                width: columns(2)
+
