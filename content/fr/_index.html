@@ -55,7 +55,7 @@ shared_image:
   id: "eed117a9-168a-40d0-b3b8-a59d4377dcba"
 
 children:
-  - "pages/codex-domus/_index.html"
+  - "pages/fonctionnement/_index.html"
   - "posts/_index.html"
   - "events/_index.html"
   - "persons/_index.html"
@@ -63,13 +63,11 @@ children:
   - "exhibitions/_index.html"
   - "pages/galerie/_index.html"
   - "files/_index.html"
-  - "pages/louer-la-maison/_index.html"
-  - "pages/bienvenue/_index.html"
 child_pages:
-  - permalink: "/codex-domus/"
-    path: "/pages/codex-domus"
-    slug: "codex-domus"
-    file: "content/fr/pages/codex-domus/_index.html"
+  - permalink: "/fonctionnement/"
+    path: "/pages/fonctionnement"
+    slug: "fonctionnement"
+    file: "content/fr/pages/fonctionnement/_index.html"
   - permalink: "/actualites/"
     path: "/posts"
     slug: "actualites"
@@ -84,7 +82,7 @@ child_pages:
     file: "content/fr/persons/_index.html"
   - permalink: "/parties-prenantes/"
     path: "/organizations"
-    slug: "parties-prenantes"
+    slug: "organisations"
     file: "content/fr/organizations/_index.html"
   - permalink: "/expositions/"
     path: "/exhibitions"
@@ -98,14 +96,6 @@ child_pages:
     path: "/files"
     slug: "fichiers"
     file: "content/fr/files/_index.html"
-  - permalink: "/louer-la-maison/"
-    path: "/pages/louer-la-maison"
-    slug: "louer-la-maison"
-    file: "content/fr/pages/louer-la-maison/_index.html"
-  - permalink: ""
-    path: "/pages/bienvenue"
-    slug: "bienvenue"
-    file: "content/fr/pages/bienvenue/_index.html"
 
 
 header_cta:
@@ -201,16 +191,16 @@ contents:
       active: true
       title: 
         value: >-
-          Codex domus
+          Fonctionnement
         heading: 2
-        link: "/codex-domus/"
+        link: "/fonctionnement/"
 
     data:
       page:
-        permalink: "/codex-domus/"
-        path: "/pages/codex-domus"
-        slug: "codex-domus"
-        file: "content/fr/pages/codex-domus/_index.html"
+        permalink: "/fonctionnement/"
+        path: "/pages/fonctionnement"
+        slug: "fonctionnement"
+        file: "content/fr/pages/fonctionnement/_index.html"
       options:
         image: true
         subtitle: true
@@ -220,20 +210,32 @@ contents:
 
       layout: grid
       pages:
-        - permalink: "/codex-domus/auberge-espagnole-a-la-casa-noesya/"
-          path: "/pages/codex-domus/auberge-espagnole-a-la-casa-noesya"
+        - permalink: "/fonctionnement/bienvenue/"
+          path: "/pages/fonctionnement/bienvenue"
+          slug: "bienvenue"
+          file: "content/fr/pages/fonctionnement/bienvenue/_index.html"
+          name: >-
+            Bienvenue à la maison noesya
+        - permalink: "/fonctionnement/auberge-espagnole-a-la-casa-noesya/"
+          path: "/pages/fonctionnement/auberge-espagnole-a-la-casa-noesya"
           slug: "auberge-espagnole-a-la-casa-noesya"
-          file: "content/fr/pages/codex-domus/auberge-espagnole-a-la-casa-noesya/_index.html"
+          file: "content/fr/pages/fonctionnement/auberge-espagnole-a-la-casa-noesya/_index.html"
           name: >-
             Auberge espagnole à la casa noesya
-        - permalink: "/codex-domus/exposer-a-la-maison-noesya/"
-          path: "/pages/codex-domus/exposer-a-la-maison-noesya"
+        - permalink: "/fonctionnement/exposer-a-la-maison-noesya/"
+          path: "/pages/fonctionnement/exposer-a-la-maison-noesya"
           slug: "exposer-a-la-maison-noesya"
-          file: "content/fr/pages/codex-domus/exposer-a-la-maison-noesya/_index.html"
+          file: "content/fr/pages/fonctionnement/exposer-a-la-maison-noesya/_index.html"
           name: >-
             Exposer à la maison noesya
+        - permalink: "/fonctionnement/louer-la-maison/"
+          path: "/pages/fonctionnement/louer-la-maison"
+          slug: "louer-la-maison"
+          file: "content/fr/pages/fonctionnement/louer-la-maison/_index.html"
+          name: >-
+            Louer la maison
 
-      quantity: 2
+      quantity: 4
 
 
   - kind: block

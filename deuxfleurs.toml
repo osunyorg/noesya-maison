@@ -15,16 +15,28 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
+from = "/codex-domus/index.html"
+to = "/fonctionnement/"
+
+[[redirects]]
+from = "/codex-domus/auberge-espagnole-a-la-casa-noesya/index.html"
+to = "/fonctionnement/auberge-espagnole-a-la-casa-noesya/"
+
+[[redirects]]
 from = "/agenda/2025-04-01-heros-zapatistes/index.html"
 to = "/agenda/2025/heros-zapatistes/"
 
 [[redirects]]
 from = "/auberge-espagnole-a-la-casa-noesya/index.html"
-to = "/codex-domus/auberge-espagnole-a-la-casa-noesya/"
+to = "/fonctionnement/auberge-espagnole-a-la-casa-noesya/"
 
 [[redirects]]
 from = "/fichiers/2026/index.html"
 to = "/fichiers/2026/devis-dev00000284pdf/"
+
+[[redirects]]
+from = "/codex-domus/exposer-a-la-maison-noesya/index.html"
+to = "/fonctionnement/exposer-a-la-maison-noesya/"
 
 [[redirects]]
 from = "/organisations/index.html"
@@ -53,6 +65,10 @@ to = "/actualites/2024-05-01-decouverte-de-lannonce/"
 [[redirects]]
 from = "/agenda/2025-03-06-dia-de-muertos/index.html"
 to = "/agenda/2025/dia-de-muertos/"
+
+[[redirects]]
+from = "/louer-la-maison/index.html"
+to = "/fonctionnement/louer-la-maison/"
 
 [[redirects]]
 from = "/agenda/2025-03-06-lancement-maison-du-numerique/index.html"
