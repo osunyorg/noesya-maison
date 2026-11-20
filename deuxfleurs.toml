@@ -15,8 +15,16 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
+from = "/parties-prenantes/savoir-devenir/index.html"
+to = "/organisations/savoir-devenir/"
+
+[[redirects]]
 from = "/codex-domus/index.html"
 to = "/fonctionnement/"
+
+[[redirects]]
+from = "/parties-prenantes/la-nef/index.html"
+to = "/organisations/la-nef/"
 
 [[redirects]]
 from = "/codex-domus/auberge-espagnole-a-la-casa-noesya/index.html"
@@ -35,28 +43,80 @@ from = "/fichiers/2026/index.html"
 to = "/fichiers/2026/devis-dev00000284pdf/"
 
 [[redirects]]
+from = "/parties-prenantes/categories/champ/index.html"
+to = "/organisations/categories/champ/"
+
+[[redirects]]
+from = "/parties-prenantes/categories/client/index.html"
+to = "/organisations/categories/client/"
+
+[[redirects]]
+from = "/parties-prenantes/citiz/index.html"
+to = "/organisations/citiz/"
+
+[[redirects]]
+from = "/parties-prenantes/categories/champ/ethique/index.html"
+to = "/organisations/categories/champ/ethique/"
+
+[[redirects]]
+from = "/parties-prenantes/yaal-coop/index.html"
+to = "/organisations/yaal-coop/"
+
+[[redirects]]
 from = "/codex-domus/exposer-a-la-maison-noesya/index.html"
 to = "/fonctionnement/exposer-a-la-maison-noesya/"
 
 [[redirects]]
-from = "/organisations/index.html"
-to = "/parties-prenantes/"
+from = "/parties-prenantes/categories/champ/strategie/index.html"
+to = "/organisations/categories/champ/strategie/"
+
+[[redirects]]
+from = "/parties-prenantes/noesya/index.html"
+to = "/organisations/noesya/"
 
 [[redirects]]
 from = "/agenda/2026/rencontre-coop-a-coop-1/index.html"
 to = "/agenda/2026/les-rencontres-intercoop/"
 
 [[redirects]]
+from = "/parties-prenantes/rosebush-studio/index.html"
+to = "/organisations/rosebush-studio/"
+
+[[redirects]]
 from = "/agenda/2026/apero-alladin/index.html"
 to = "/agenda/2026/apero-aladdin/"
+
+[[redirects]]
+from = "/parties-prenantes/hempalha/index.html"
+to = "/organisations/hempalha/"
+
+[[redirects]]
+from = "/parties-prenantes/universite-bordeaux-montaigne/index.html"
+to = "/organisations/universite-bordeaux-montaigne/"
+
+[[redirects]]
+from = "/parties-prenantes/coopalpha/index.html"
+to = "/organisations/coopalpha/"
 
 [[redirects]]
 from = "/agenda/2026/communs-geo-numeriques/index.html"
 to = "/agenda/2026/cooperer-avec-les-communs-numeriques/"
 
 [[redirects]]
+from = "/parties-prenantes/co-actions/index.html"
+to = "/organisations/co-actions/"
+
+[[redirects]]
 from = "/agenda/2026/cafe-papotage-enercoop/index.html"
 to = "/agenda/2026/apero-papotage-enercoop/"
+
+[[redirects]]
+from = "/parties-prenantes/aquilenet/index.html"
+to = "/organisations/aquilenet/"
+
+[[redirects]]
+from = "/parties-prenantes/o-tempora/index.html"
+to = "/organisations/o-tempora/"
 
 [[redirects]]
 from = "/actualites/2024-05-19-decouverte-de-lannonce/index.html"
@@ -77,4 +137,12 @@ to = "/agenda/2025/dia-de-muertos/"
 [[redirects]]
 from = "/Programme/index.html"
 to = "/agenda/2025/fete-de-la-musique-2025/"
+
+[[redirects]]
+from = "/parties-prenantes/index.html"
+to = "/organisations/"
+
+[[redirects]]
+from = "/parties-prenantes/enercoop/index.html"
+to = "/organisations/enercoop/"
 
